@@ -5,5 +5,5 @@ let cats = [
 ]
 
 for (i=0; i<cats.length; i++) {
-    console.log('${cats[i].name} likes ${cats[i].likes}');
+    console.log(`${cats[i].name} likes ${cats[i].likes}`);
 }
